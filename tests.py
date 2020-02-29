@@ -12,7 +12,7 @@ class TestCase(unittest.TestCase):
         self.assertNotEqual(expected, task.firstrun())
 
     def test_areaFromRadius(self):
-        self.assertEqual(78.5, task.areaFromRadius())
+        self.assertEqual(78.5, task.areaFromRadius(5))
 
 
 if __name__ == '__main__':
