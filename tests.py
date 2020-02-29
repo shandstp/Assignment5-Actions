@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
 
-    def test_areaFromRadius():
+    def test_areaFromRadius(self):
         self.assertEqual(78.5, task.areaFromRadius())
 
 
