@@ -4,3 +4,8 @@ import math
 def areaFromRadius(radius):
     area = 3.14 * math.pow(radius, 2)
     return area
+
+
+def getListEnds(list):
+    result = [list[0], list[len(list) - 1]]
+    return result
