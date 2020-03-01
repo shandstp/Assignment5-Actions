@@ -1,4 +1,5 @@
 import math
+import datetime
 
 
 def areaFromRadius(radius):
@@ -9,3 +10,7 @@ def areaFromRadius(radius):
 def getListEnds(list):
     result = [list[0], list[len(list) - 1]]
     return result
+
+
+def dateDiff(date1, date2):
+    return abs((date1 - date2).days)
